@@ -5,120 +5,75 @@
 }
 
 @font-face {
-    font-family: 'Poppins';
-    src: url('Poppins-Bold.ttf');
-    font-weight: bold;
+    font-family:"Mulish" ;
+    src: url("./Mulish-Light.ttf");
 }
 
 @font-face {
-    font-family: 'Poppins-light';
-    src: url('Poppins-Regular.ttf');
+    font-family:"Mulish-bold" ;
+    src: url("./Mulish-Bold.ttf");
+}
+
+.logo{
+    height: 41px;
+    margin:25px;
+    margin-left: 60px;
+    color: #458FF6;
+
 
 }
 
-.search {
-    width: 25px;
-    margin-right: 40px;
-
-}
-
-.logo {
-    width: 30px;
-    margin-right: 50px;
-}
-
-.pntrenq {
+.header {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    line-height: 1.5;
-    background-color: black;
-    margin: 0;
-    padding: 20px;
-    align-items: flex-start;
-
-}
-
-
-header ul .home, .home1, .home2, .LogIn {
-
-
-    font-family: 'Poppins';
-
-    list-style: none;
-    background-color: black;
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
-    margin-right: 50px;
-
-}
-
-
-header ul {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-
-
-}
-
-
-.land {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Poppins';
-    font-size: 14px;
-    background-image: url("barev.jpg");
-    height: 90vh;
-    text-align: center;
+    background-color: #ffffff;
     align-items: center;
-    padding: 0 20px;
-    box-sizing: border-box;
-    color:wheat;
-    line-height: 1.3;
-
-}
-
-.land .es {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
     text-align: center;
 
 }
 
 
-.button {
-    margin: 20px 20px 20px;
-
-    font-size: 20px;
-    border-radius: 40px;
-    width: 130px;
-    color: darkmagentapurple;
-    font-family: Poppins-light;
-    background-color: transparent;
-    border-color: darkmagenta;
-}
-
-.land .es .ari {
-
+.header .home , .home1,  .trafalgar{
     text-decoration: none;
-    color: darkzblue;
-    font-size: 16px;
+    list-style: none;
+    font-size: 17px;
+    font-family: Mulish;
+
+
 }
 
-.land .es .ari:hover {
-    color: white;
+
+.header  .ul2 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
 }
 
+.header .ul1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-basis: border-box;
+    list-style: none;
+    align-items: center;
+}
+
+.header .home{
+    color: #1F1534;
+    opacity: 0.5;
+    margin-right: 50px;
+
+}
+
+.header .trafalgar , .home1{
+    font-family: Mulish-bold;
+    color: #1F1534;
+
+}
+
+.header .trafalgar {
+    height: 41px;
+    font-size: 24px;
+
+}

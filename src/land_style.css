@@ -1,0 +1,51 @@
+.str_land {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ul_land {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2.5;
+    margin-left: 60px;
+    text-align: left;
+
+}
+
+.vector_image {
+    height: 598px;
+    width: 693px;
+
+}
+
+.title {
+    font-family: Mulish-bold;
+    font-size: 48px;
+    width: 480px;
+    line-height: 1.6;
+
+}
+
+
+p{
+    margin-top: 10px;
+    font-family: Mulish;
+    font-size: 21px;
+    width: 450px;
+    line-height: 1.7;
+    color: #1F1534;
+    opacity: 0.5;
+}
+
+.consult {
+    margin-top: 20px;
+    font-family: Mulish-bold;
+    font-size: 18px;
+    background: #458FF6;
+    border-radius: 55px;
+    width: 140px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
