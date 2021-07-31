@@ -18,10 +18,25 @@ class Navigator extends React.Component {
 
                 </ul>
                 <ul className='ul2'>
-                    <NavLink to="/home" className='home1'>Home</NavLink>
-                    <NavLink to="/home" className='home'>Find a doctor</NavLink>
-                    <NavLink to="/home" className='home'>Testimonials</NavLink>
-                    <NavLink to="/home" className='home'>About us</NavLink>
+                    <li>
+                        <NavLink to="/home" className='home1'>Home</NavLink>
+                        </li>
+                    <li>
+                        <NavLink to="/home" className='home'>Find a doctor </NavLink> 
+                        </li>
+                    <li> 
+                        <NavLink to="/home" className='home'>Testimonials</NavLink>
+                        </li>
+                    <li>
+                        <NavLink to="/home" className='home'>About us</NavLink>
+                        </li>
+                    <li>
+                        <NavLink to="/home" className='home'>Log In</NavLink>
+                        </li>
+                    <li>
+                        <NavLink to="/home" className='sign_up'>Sign Up</NavLink>
+                        </li>
+                    
                 </ul>
 
 

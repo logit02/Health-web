@@ -11,6 +11,8 @@ import Land from './land.js';
 import Services from "./servies.js";
 import Land2 from './land2.js';
 import Land3 from './land3.js';
+import Opinions from '/Users/inesatoroyan/Desktop/React-app/src/opinions.js';
+import Footer from "./footer.js";
 
 
 
@@ -28,6 +30,8 @@ function App() {
                     <Services />
                     <Land2 />
                     <Land3 />
+                    <Opinions />
+                    <Footer />
                 </Route>
                 <Redirect to='/home'>
                     <Land/>

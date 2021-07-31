@@ -4,7 +4,7 @@ import image from '/Users/inesatoroyan/Desktop/React-app/src/trafalgar-illustrat
 import '/Users/inesatoroyan/Desktop/React-app/src/land2.css'
 
 function Land2(){
-    return(<div className='str_land'>
+    return (<div className='str_land'>
 
         <div className='image'>
             <img src={image} alt='#' className='vector_image' />

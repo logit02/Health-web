@@ -3,6 +3,7 @@ import {NavLink} from "react-router-dom";
 import image from './Trafaglar/trafalgar-header illustration 1.png'
 import './land_style.css'
 
+
 function Land(){
     return(<div className='str_land'>
 

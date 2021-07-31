@@ -2,7 +2,7 @@ import React from "react";
 
 import './services.css';
 
-import search from './Group.png'
+
 import {NavLink} from "react-router-dom";
 
 

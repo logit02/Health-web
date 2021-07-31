@@ -19,6 +19,8 @@
     margin:25px;
     margin-left: 60px;
     color: #458FF6;
+    font-family: 'Times New Roman', Times, serif;
+   
 
 
 }
@@ -33,7 +35,7 @@
 }
 
 
-.header .home , .home1,  .trafalgar{
+.header .home , .home1, .sign_up, .trafalgar{
     text-decoration: none;
     list-style: none;
     font-size: 17px;
@@ -46,20 +48,23 @@
 .header  .ul2 {
     display: flex;
     flex-direction: row;
-    flex: 1;
+   
     justify-content: space-between;
+    align-items: center;
+   
 }
 
 .header .ul1 {
     display: flex;
     flex-direction: row;
-    flex: 1;
+    
     flex-basis: border-box;
     list-style: none;
     align-items: center;
+    width: 600px;
 }
 
-.header .home{
+.header .home, .sign_up{
     color: #1F1534;
     opacity: 0.5;
     margin-right: 50px;
@@ -69,6 +74,7 @@
 .header .trafalgar , .home1{
     font-family: Mulish-bold;
     color: #1F1534;
+    
 
 }
 
@@ -77,3 +83,20 @@
     font-size: 24px;
 
 }
+
+.header .sign_up {
+    background: #458FF6;
+    color: white;
+    opacity: 1;
+    border-radius: 20px;
+    font-family: Mulish-bold;
+    padding: 10px;
+}
+
+.header .home {
+    margin-left: 30px;
+}
+
+
+
+
