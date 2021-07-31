@@ -3,6 +3,7 @@ import React from "react";
 import './services.css';
 
 import search from './Group.png'
+import {NavLink} from "react-router-dom";
 
 
 function Services(){
@@ -21,24 +22,26 @@ function Services(){
 
             <div className='items'>
                 <div className='item1'>
-                    <img src={search} alt='#' className='img'/>
+                    {/* <img src={search} alt='#' className='img'/> */}
                     <h1>Search Doctor</h1>
                     <p className='search_desc'>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
 
                 </div>
                 <div className='item1'>
-                    <img src={search} alt='#' className='img'/>
+                    {/* <img src={search} alt='#' className='img'/>*/}
                     <h1>Online pharmacy</h1>
                     <p className='search_desc'>Buy your medicines with our mobile application with a simple delivery system</p>
                 </div>
                 <div className='item1'>
-                    <img src={search} alt='#' className='img'/>
+                    {/*<img src={search} alt='#' className='img'/>*/}
                     <h1>Consultation</h1>
                     <p className='search_desc'> Free consultation with our trusted doctors and get the best recomendations</p>
                 </div>
 
             </div>
-
+            <div className='learn'>
+                <NavLink to="/home" className='learn_more'>Learn more</NavLink>
+            </div>
 
         </div>
 

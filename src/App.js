@@ -9,6 +9,8 @@ import {
 import Navigator from './nav.js' ;
 import Land from './land.js';
 import Services from "./servies.js";
+import Land2 from './land2.js';
+import Land3 from './land3.js';
 
 
 
@@ -24,10 +26,13 @@ function App() {
                 <Route path="/home">
                     <Land/>
                     <Services />
+                    <Land2 />
+                    <Land3 />
                 </Route>
                 <Redirect to='/home'>
                     <Land/>
                     <Services />
+
                 </Redirect>
 
             </Switch>

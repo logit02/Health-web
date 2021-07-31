@@ -1,4 +1,5 @@
 .str_land {
+    margin-top: 160px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,15 +9,16 @@
     flex-direction: column;
     justify-content: center;
     line-height: 2.5;
-    margin-left: 60px;
+    margin-right: 60px;
     text-align: left;
 
 }
 
 .vector_image {
-    height: 598px;
-    width: 693px;
-    padding-right: 20px;
+    margin-top: 20px;
+    height: 428px;
+    width: 593px;
+    padding-left: 40px;
 
 }
 
@@ -39,19 +41,7 @@ p{
     opacity: 0.5;
 }
 
-.consult {
-    margin-top: 20px;
-    font-family: Mulish-bold;
-    font-size: 18px;
-    background: #458FF6;
-    border-radius: 55px;
-    width: 140px;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-}
-
-.download {
+.land2_but {
     margin-top: 20px;
     font-family: Mulish-bold;
     font-size: 18px;

@@ -74,3 +74,23 @@
     max-width: 280px;
 }
 
+.learn_more {
+
+   font-family: Mulish;
+    color: #458FF6;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 9px;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+
+}
+
+.learn{
+    margin-top: 60px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+
+}
