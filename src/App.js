@@ -3,8 +3,9 @@ import React from "react";
 import {
     Switch,
     Route,
-    Redirect
-} from "react-router-dom";
+    
+} 
+from "react-router-dom";
 
 import Navigator from './nav.js' ;
 import Land from './land.js';
@@ -13,6 +14,7 @@ import Land2 from './land2.js';
 import Land3 from './land3.js';
 import Opinions from '/Users/inesatoroyan/Desktop/React-app/src/opinions.js';
 import Footer from "./footer.js";
+import Signup from '/Users/inesatoroyan/Desktop/React-app/src/signup/signup.js';
 
 
 
@@ -21,11 +23,12 @@ import Footer from "./footer.js";
 function App() {
     return (
         <div>
-            <Navigator/>
+            
 
 
             <Switch>
                 <Route path="/home">
+                <Navigator/>
                     <Land/>
                     <Services />
                     <Land2 />
@@ -33,11 +36,15 @@ function App() {
                     <Opinions />
                     <Footer />
                 </Route>
-                <Redirect to='/home'>
-                    <Land/>
-                    <Services />
 
-                </Redirect>
+                <Route path ="/signup">
+                <Navigator/>
+                <Signup />
+                <Footer />
+                </Route>
+
+
+                
 
             </Switch>
         </div>

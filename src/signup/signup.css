@@ -1,0 +1,49 @@
+.sign_up_page {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    
+    height: 500px;
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 55px;
+    margin-bottom: 100px;
+    
+
+    
+
+}
+
+.all_comps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1 1 0;
+    
+
+}
+
+.parts {
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: Mulish-bold;
+    color: white;
+    
+}
+
+.parts .input , .submit{
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 44px;
+    height: 30px;
+}
+
+
+.parts .submit {
+    width: 90px;
+    background: white;
+    border: solid white ;
+    color:#5A98F2;
+    font-family: Mulish-bold;
+}

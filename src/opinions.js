@@ -11,7 +11,7 @@ function Opinions(){
         <div className='heh'>
 
             <div className='text_part'>
-            <h1>What our customer are saying</h1>
+            <h1>What our customers are saying</h1>
             <p className='line_break'></p>
             </div>
 
