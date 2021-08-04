@@ -7,14 +7,14 @@ import {
 } 
 from "react-router-dom";
 
-import Navigator from './nav.js' ;
-import Land from './land.js';
-import Services from "./servies.js";
-import Land2 from './land2.js';
-import Land3 from './land3.js';
-import Opinions from '/Users/inesatoroyan/Desktop/React-app/src/opinions.js';
-import Footer from "./footer.js";
-import Signup from '/Users/inesatoroyan/Desktop/React-app/src/signup/signup.js';
+import Navigator from './Components/Navigation/nav.js' ;
+import Land from './Components/Landing_page_1/land.js';
+import Services from "./Components/Services/servies.js";
+import Land2 from './Components/Landing_page_2/land2.js';
+import Land3 from './Components/Landing_page_3/land3.js';
+import Opinions from './Components/Opinions/opinions.js';
+import Footer from "./Components/Footer/footer.js";
+import Signup from './Components/signup/signup.js';
 
 
 
@@ -35,6 +35,7 @@ function App() {
                     <Land3 />
                     <Opinions />
                     <Footer />
+                    
                 </Route>
 
                 <Route path ="/signup">
@@ -43,8 +44,7 @@ function App() {
                 <Footer />
                 </Route>
 
-
-                
+            
 
             </Switch>
         </div>
