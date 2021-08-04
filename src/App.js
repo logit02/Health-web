@@ -15,7 +15,7 @@ import Land3 from './Components/Landing_page_3/land3.js';
 import Opinions from './Components/Opinions/opinions.js';
 import Footer from "./Components/Footer/footer.js";
 import Signup from './Components/signup/signup.js';
-
+import Admin from './Components/admin/admin.js';
 
 
 
@@ -23,14 +23,11 @@ import Signup from './Components/signup/signup.js';
 function App() {
     return (
         <div>
-            
-
-
             <Switch>
                 <Route path="/home">
                 <Navigator/>
-                    <Land/>
-                    <Services />
+                <Land/>
+                <Services />
                     <Land2 />
                     <Land3 />
                     <Opinions />
@@ -39,14 +36,17 @@ function App() {
                 </Route>
 
                 <Route path ="/signup">
-                <Navigator/>
-                <Signup />
-                <Footer />
+                    <Navigator/>
+                    <Signup />
+                    <Footer />
                 </Route>
 
-            
+                <Route path = '/admin'>
+                    <Admin />
+                </Route>
 
-            </Switch>
+                
+             </Switch>
         </div>
     );
 }

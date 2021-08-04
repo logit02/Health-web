@@ -8,7 +8,7 @@ import {NavLink} from "react-router-dom";
 
 function Services(){
     return(
-        <div className='all'>
+        <div className='all_'>
             <div className='puretext'>
 
                     <h1 className='title_services'>Our Services</h1>

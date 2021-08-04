@@ -1,0 +1,160 @@
+
+*{
+    margin:0;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.all .nav_part {
+    height: 1000px;
+    width: 15%;
+    background-color: #363740;
+    color:#F7F8FC; 
+    font-family: Mulish;
+    
+    align-items: center;
+    text-align: center;
+    
+    
+    
+}
+
+.all .nav_part .items_nav {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.all .nav_part .items_left_bar{
+    text-decoration: none;
+    color: #F7F8FC;
+    font-family: Mulish;
+    margin-top: 0px;
+    line-height: 50px;
+    margin-left: 20px;
+    text-align: left;
+    opacity: 0.7;
+    border-bottom: solid 1px darkgray;
+    width: 80%;
+}
+
+.all .nav_part .items_left_bar:hover {
+    color:#458FF6;
+}
+
+.all .use_part {
+    width: 85%;
+    background-color: #F7F8FC; 
+    
+}
+
+.all .use_part .top_bar{
+    background-color: #F7F8FC; 
+    height: 70px;
+    font-family: Mulish;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 60px;
+    
+    justify-content: space-between;
+
+}
+
+.all .use_part  .top_bar .text{
+    margin-top: 0;
+    text-align: center;
+    align-items: center;
+    width: 130px;
+    font-family: Mulish-bold;
+    color : #458FF6;
+    opacity: 0.8;
+}
+
+
+
+
+
+.mard {
+    height: 50px;
+    width: 50px;
+}
+
+.all .use_part .left {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.all .use_part .right  {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: left;
+    
+    
+}
+
+.all .use_part .right .name{
+
+    font-family: Mulish;
+    font-size: 18px;
+    width: 200px;
+
+
+}
+
+.input_image{ 
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+  
+}
+
+.submit_image{ 
+    padding: 10px;
+    font-family: Mulish;
+    border: solid #458FF6;
+    border-radius: 20px;
+    background: #458FF6;
+    color: white;
+    width: 90px;
+    
+}
+.submit_image:hover {
+
+    background: magenta ;
+    color:white;
+    border: solid magenta;
+}
+.space {
+    background-color: #458FF6;
+    height: 70px;
+    color: white;
+    font-family: Mulish;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.space h1 {
+    opacity: 0.8;
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+
+.input {
+    color: #458FF6;
+   
+}
