@@ -3,6 +3,7 @@ import React from "react";
 import {
     Switch,
     Route,
+    Redirect,
     
 } 
 from "react-router-dom";
@@ -44,7 +45,7 @@ function App() {
                 <Route path = '/admin'>
                     <Admin />
                 </Route>
-
+                <Redirect  from ='/' to ='/home'></Redirect>
                 
              </Switch>
         </div>
