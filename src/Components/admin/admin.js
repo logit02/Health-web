@@ -1,7 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import './admin.css'
-import mard from '/Users/inesatoroyan/Desktop/React-app/src/Components/Opinions/image 1.png';
+import mard from '../../Components/Opinions/image 1.png';
 
 import Edit from './edit.js';
 

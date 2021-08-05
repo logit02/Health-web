@@ -6,12 +6,12 @@
 
 @font-face {
     font-family:"Mulish" ;
-    src: url("/Users/inesatoroyan/Desktop/React-app/src/Assets/Fonts/Mulish-Light.ttf");
+    src: url("../../Assets/Fonts/Mulish-Light.ttf");
 }
 
 @font-face {
     font-family:"Mulish-bold" ;
-    src: url("/Users/inesatoroyan/Desktop/React-app/src/Assets/Fonts/Mulish-Bold.ttf");
+    src: url("../../Assets/Fonts/Mulish-Bold.ttf");
 }
 
 .logo{

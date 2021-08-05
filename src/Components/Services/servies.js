@@ -10,7 +10,7 @@ function Services(){
     return(
         <div className='all_'>
             <div className='puretext'>
-                    <h1>Hey</h1>
+                    
                     <h1 className='title_services'>Our Services</h1>
                     <p className='puk'></p>
                     <p className='desc'>We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health.</p>

@@ -1,7 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import image from './trafalgar-illustration sec03 1.png'
-import '/Users/inesatoroyan/Desktop/React-app/src/Components/Landing_page_2/land2.css'
+import '../../Components/Landing_page_2/land2.css'
 
 function Land3(){
     return(<div className='str_land'>
