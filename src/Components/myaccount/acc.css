@@ -1,0 +1,15 @@
+.menu {
+    background-color:lightgray ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    padding: 30px;
+    padding-right: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.elements {
+    text-decoration: none;
+}

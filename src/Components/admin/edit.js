@@ -23,8 +23,7 @@ class  Edit extends Component {
             value: event.target.value,
            
             
-        })
-        
+        })        
         
     }
 
@@ -44,6 +43,8 @@ class  Edit extends Component {
                 <div className= 'space'>
 
                     <h1> {this.state.value}</h1>
+
+                    
                     
                    
                 </div>

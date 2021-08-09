@@ -2,8 +2,10 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 
 
-class Navigator extends React.Component {
-    render() {
+function Navigator()  {
+
+    let status = localStorage.getItem('myVal')
+    
         return (
             <header className='header'>
 
@@ -28,9 +30,17 @@ class Navigator extends React.Component {
                        
                         <NavLink to="/home" className='home'>About us</NavLink>
                      
-                        <NavLink to="/home" className='home'>Log In</NavLink>
+                        {!status &&  <NavLink to="/login" className='home'>Log In</NavLink>}
                      
-                        <NavLink to="/signup" className='sign_up'>Sign Up</NavLink>
+                        {!status && <NavLink to="/signup" className='sign_up'>Sign Up</NavLink>}
+                        
+                        {status && <NavLink to="/myaccount" className='sign_up'>My account</NavLink>}
+
+                        {status && <NavLink to="/login" className='home'>Log Out</NavLink>}
+
+                        
+
+                        
                         
                     
                 </ul>
@@ -42,6 +52,6 @@ class Navigator extends React.Component {
 
         )
     }
-}
+
 
 export default Navigator;

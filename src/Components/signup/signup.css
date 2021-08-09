@@ -1,6 +1,15 @@
+.div1 {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.div1 .parts{
+    align-items: center;
+}
 .sign_up_page {
-    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-    
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5B48F2 76.74%);
+    align-items: center;
     height: 500px;
     width: 80%;
     margin-top: 30px;
@@ -29,6 +38,7 @@
     align-items: center;
     font-family: Mulish-bold;
     color: white;
+    font-size: 10px;
     
 }
 
