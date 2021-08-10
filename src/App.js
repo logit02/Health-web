@@ -17,7 +17,7 @@ import Opinions from './Components/Opinions/opinions.js';
 import Footer from "./Components/Footer/footer.js";
 import Signup from './Components/signup/signup.js';
 import Admin from './Components/admin/admin.js';
-import Result from './Components/Login/login.js'; 
+
 import Account from './Components/myaccount/acc.js'
 
 
@@ -45,14 +45,12 @@ function App() {
                 <Route path = '/admin'>
                     <Admin />
                 </Route>
-                <Route path = '/login'>
-                    <Result />
-                </Route>
+                
 
                 <Route path = '/myaccount'>
                     <Account />
                 </Route>
-                <Redirect  from ='/' to ='/home'></Redirect>
+               <Redirect  from ='/' to ='/home'></Redirect> 
                 
              </Switch>
         </div>

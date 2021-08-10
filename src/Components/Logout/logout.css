@@ -1,0 +1,29 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+   margin-top:100px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.inf {
+    width: 100%;
+    text-align: center;
+    font-family: Mulish-bold;
+}
+
+.but {
+    border: solid #5A98F2;
+    background: #5A98F2; 
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 80px;
+}
+
+.but:hover {
+    border: solid magenta ;
+    background: magenta;
+    
+}

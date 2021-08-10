@@ -30,13 +30,13 @@ function Navigator()  {
                        
                         <NavLink to="/home" className='home'>About us</NavLink>
                      
-                        {!status &&  <NavLink to="/login" className='home'>Log In</NavLink>}
+                        {!status &&  <NavLink to="/signup" className='home'>Log In</NavLink>}
                      
                         {!status && <NavLink to="/signup" className='sign_up'>Sign Up</NavLink>}
-                        
+
                         {status && <NavLink to="/myaccount" className='sign_up'>My account</NavLink>}
 
-                        {status && <NavLink to="/login" className='home'>Log Out</NavLink>}
+                        
 
                         
 

@@ -6,7 +6,7 @@ import{  useState } from "react";
 function Signup(){
     let [isauth, setAuth] = useState(false)
    let [val, setVal] = useState()
-
+   let [pass, setPass] = useState()
 
    
 
@@ -14,17 +14,23 @@ function Signup(){
          setVal(event.target.value)
          
         }
+
+        function handlePass(event) {
+            setPass(event.target.value)
+            
+           }
        
          
 
    function handleClick(){
-      if (val === 'inesa'){
+      if (val === 'inesa' && pass ==='12345678'){
           setAuth(true)
-          console.log(isauth)
+          alert('Successfully logged in')
+          window.location = '/home';
          
-          console.log('ha')
+
       }else{
-          console.log('che')
+         alert('Username or password are incorrect!')
       }
 
     }
@@ -44,7 +50,14 @@ function Signup(){
                <input className='input'
               name="username"
               onChange = {handleInput}
+              placeholder ='username'
               type = "text" />
+
+            <input className='input'
+              name="password"
+              onChange = {handlePass}
+              placeholder ='password'
+              type = "password" />
 
                 <input className='submit'
                     name="submit"

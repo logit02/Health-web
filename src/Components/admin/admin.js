@@ -41,21 +41,21 @@ function Admin(){
                 </div>
 
 
-                <div className ='space'>
+            <div className ='space'>
             
-            <Switch>
+                <Switch>
                 <Route path="/admin/edit">
                  
-                    <Edit />
+                <Edit />
                     
                 </Route>
 
                 
-             </Switch>
+                </Switch>
         
             </div>
         </div>
-            </div>
+</div>
 
 
     )
